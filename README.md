@@ -4,8 +4,8 @@
 * install Protobuf
 * install GRPC
 * install GRPC language binging package: 
-    * python-grpcio (Debian)
-    * or via python3 using pip3: grpcio)
+    * `python-grpcio` (Debian)
+    * or via python3 using pip3: `grpcio`)
 
 ```
 # clone apm repository
