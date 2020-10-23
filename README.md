@@ -22,6 +22,4 @@ then you can fire a TMUX session in order to have 3 windows:
 * APM client window
 * TCPdump outfrom from client/server discussion
 
-[[https://github.com/frederic-loui/grpc-apm-example/blob/main/apm.png|alt=APM]]
-
-![alt APM](/apm.png)
+![APM](/apm.png)
