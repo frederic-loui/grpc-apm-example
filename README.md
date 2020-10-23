@@ -22,5 +22,6 @@ then you can fire a TMUX session in order to have 3 windows:
 * APM client window
 * TCPdump outfrom from client/server discussion
 
-[[/apm.png|APM exampleT]]
+[[/apm.png|APM]]
+
 
