@@ -1,0 +1,10 @@
+syntax = "proto3";                                      
+                                                        
+service APM {                                    
+    rpc GetAPMFromNRENName(Text) returns (Text) {   
+    }
+}                                                       
+
+message Text {                                          
+    string str_text = 1;                                    
+}                                                       
