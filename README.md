@@ -18,8 +18,8 @@ cd apm
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. apm.proto 
 ```
 then you can fire a TMUX session in order to have 3 windows:
-* APM server window
-* APM client window
-* TCPdump outfrom from client/server discussion
+* `./apm_server.py` APM server window
+* `./apm_client.py` APM client window
+* `sudo tcpdump -nnvvXSs 1514 -i lo port 50051` TCPdump outfrom from client/server discussion
 
 ![APM](/apm.png)
