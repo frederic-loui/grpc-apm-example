@@ -17,3 +17,10 @@ cd apm
 # generate apm python bindings
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. apm.proto 
 ```
+then you can fire a TMUX session in order to have 3 windows:
+* APM server window
+* APM client window
+* TCPdump outfrom from client/server discussion
+
+[[/apm.png|APM exampleT]]
+
